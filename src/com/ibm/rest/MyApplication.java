@@ -18,7 +18,7 @@ public class MyApplication extends Application{
 	    public Set<Class<?>> getClasses() {
 	        Set<Class<?>> s = new HashSet<Class<?>>();
 
-	        s.add(CtoFService.class);
+	        s.add(HelloService.class);
 	  
 	        return s;
 	    }

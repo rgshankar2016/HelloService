@@ -5,10 +5,10 @@
 	<dependencySets>
     <dependencySet>
       <includes>
-        <include>com.ibm.rest:HellService</include>
+        <include>com.ibm.rest:HelloService</include>
       </includes>
       <outputDirectory>.</outputDirectory>
-      <outputFileNameMapping>HellService.war</outputFileNameMapping>
+      <outputFileNameMapping>HelloService.war</outputFileNameMapping>
     </dependencySet>
   </dependencySets>
 

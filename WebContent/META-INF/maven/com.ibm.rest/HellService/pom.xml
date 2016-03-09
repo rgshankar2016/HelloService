@@ -8,7 +8,7 @@
 
 
 	<build>
-		<finalName>HellService</finalName>
+		<finalName>HelloService</finalName>
 		<sourceDirectory>src</sourceDirectory>
 		<plugins>
 			<plugin>
@@ -78,8 +78,7 @@
 		<dependency>
 			<groupId>junit</groupId>
 			<artifactId>junit</artifactId>
-			<version>3.8.1</version>
-			<scope>test</scope>
+			<version>4.11</version>
 		</dependency>
 		<dependency>
 			<groupId>asm</groupId>
@@ -87,24 +86,9 @@
 			<version>3.3.1</version>
 		</dependency>
 		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-bundle</artifactId>
-			<version>1.19</version>
-		</dependency>
-		<dependency>
 			<groupId>org.json</groupId>
 			<artifactId>json</artifactId>
 			<version>20140107</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-server</artifactId>
-			<version>1.19</version>
-		</dependency>
-		<dependency>
-			<groupId>com.sun.jersey</groupId>
-			<artifactId>jersey-core</artifactId>
-			<version>1.19</version>
 		</dependency>
 		<dependency>
 			<groupId>javax.servlet</groupId>
@@ -116,7 +100,6 @@
 			<groupId>org.glassfish.jersey.test-framework.providers</groupId>
 			<artifactId>jersey-test-framework-provider-grizzly2</artifactId>
 			<version>2.22</version>
-			<scope>test</scope>
 		</dependency>
 	</dependencies>
 </project>
